@@ -40,7 +40,7 @@ $ git clone https://github.com/galaxyproject/galaxy.git
 
 # Start It Up
 
-Galaxy requires a few things to run: a virtualenv, configuration files, and dependent Python modules. However, starting the server for the first time will create/acquire these things as necessary. To start Galaxy, simply run the following command in a terminal window:
+Galaxy requires a few things to run: a virtualenv, configuration files, and dependent Python modules. However, starting the server for the first time will create/acquire these things as necessary. To start Galaxy, navigate to the directory  containing the downloaded galaxy project. You can us the ls command to veiw the contents of the current directory and if required the cd command followed by the folder you was to go into to drill down to the area where galasxy is installed. To confirm you are in the correct folder, use the ls command and check that the run.sh file is present allong with the galaxy program. Then simply run the following command in a terminal window:
 
 ```sh
 $ sh run.sh
